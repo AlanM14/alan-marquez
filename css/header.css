@@ -1,3 +1,35 @@
+header div a img {
+  height: 80px;
+  background-color: rgb(226, 35, 67);
+}
 
+.home-link {
+  color: white;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 35, 67);
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-link :hover {
+  background-color: rgb(10, 14, 247);
+}
+
+.home-link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.home-link a {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /*# sourceMappingURL=header.css.map */
