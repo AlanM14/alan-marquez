@@ -1,21 +1,24 @@
 .h1-menu{
     color: rgb(241, 37, 224);
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    padding: 0;
+    margin: 80px 0px 0px 0px;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left, lightblue, lightpink);
 
 }
 .h2-menu{
     color: rgb(241, 37, 224);
     text-align: center;
-    padding: 120px 0px 0px 200px;
+    margin: 120px 0px 0px 200px;
+    background-image: linear-gradient(to left, lightblue, lightpink);
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .texto-menu p {
     text-align: center;
-    padding: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 150px;
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -27,7 +30,7 @@
 }
 .img-messi{
     height: 350px;
-    padding: 0px 0px 0px 350px;
+    margin: 0px 0px 0px 350px;
 }
 @media (max-width : 375.2px){
     header {
@@ -38,53 +41,56 @@
         height: auto;
         left: 0;
         top: 0;
-
+  
     
     }
-.h1-menu{
+  .h1-menu{
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.h2-menu{
-    padding: 120px 0px 0px 10px;
+  }
+  .h2-menu{
+    margin: 120px 0px 0px 10px;
     text-align: center;
     font-size: 200%;
     
-}
-
-.img-messi{
+  }
+  
+  .img-messi{
     height: 400px;
-    padding: 0px 0px 0px 30px;
-}
-.texto-menu{
+    padding: 0;
+    margin: 0px 0px 0px 30px;
+    
+  }
+  .texto-menu{
     display: block;
-}
-.texto-menu p {
+  }
+  .texto-menu p {
     text-align: center;
-    padding: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 60px;
     font-size: 15px;
     background-position: center;
     width: 60%;
     justify-content: center;
-}
-.footer a img {
+  }
+  .footer a img {
     height: 50px;
     display: inline-block;
-    padding: 5px 0px 0px 200px;
+    padding: 0;
+    margin: 0px 0px 0px 70px;
     
-} 
-/*mejores jugadas*/
-.videos-messi {
+    
+  } 
+  /*mejores jugadas*/
+  .videos-messi {
     display: block;
     height: 180px;
-}
-.h1-jugadas{
+  }
+  .h1-jugadas{
    
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     font-size: 30px;
-}
-    
+  }
 }
