@@ -19,3 +19,41 @@
     height: 200px;
     
 }  
+@media (max-width : 375.2px){
+    .main-estadisticas{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .h1-estadisticas {
+      color: rgb(241, 37, 224);
+      text-align: center;
+      padding: 0px 0px 0px 0px;
+      font-size: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .estadisticas-partido {
+      display: block;
+      padding: 0px 0px 0px 0%;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .estadisticas-partido ul {
+      text-align: top;
+      font-size: 15px;
+      justify-content: center;
+      list-style: none;
+      text-align: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .estadisticas-partido img {
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }

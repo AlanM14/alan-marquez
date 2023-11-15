@@ -35,64 +35,69 @@
     margin: 0px 0px 30px 350px;
 }
 @media (max-width : 375.2px){
-    header {
-        padding: fixed;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        left: 0;
-        top: 0;
+  header {
+      padding: fixed;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      left: 0;
+      top: 0;
+
   
-    
-    }
-  .h1-menu{
-    text-align: center;
-    margin: 80px 0px 0px 0px;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .h2-menu{
-    margin: 120px 0px 0px 10px;
-    text-align: center;
-    font-size: 200%;
-    
-  }
+.h1-menu{
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2-menu{
+  margin: 120px 0px 0px 10px;
+  text-align: center;
+  font-size: 200%;
   
-  .img-messi{
-    height: 400px;
-    padding: 0;
-    margin: 0px 0px 0px 30px;
-    
-  }
-  .texto-menu{
-    display: block;
-  }
-  .texto-menu p {
-    text-align: center;
-    margin: 0px 0px 0px 60px;
-    font-size: 15px;
-    background-position: center;
-    width: 60%;
-    justify-content: center;
-  }
-  .footer a img {
-    height: 50px;
-    display: inline-block;
-    padding: 0;
-    margin: 0px 0px 0px 70px;
-    
-    
-  } 
-  /*mejores jugadas*/
-  .videos-messi {
-    display: block;
-    height: 180px;
-  }
-  .h1-jugadas{
-   
-    text-align: center;
-    margin: 5px 0px 0px 0px;
-    font-size: 30px;
-  }
+}
+
+.img-messi{
+  height: 400px;
+  padding: 0;
+  margin: 0px 0px 0px 30px;
+  
+}
+.texto-menu{
+  display: block;
+}
+.texto-menu p {
+  text-align: center;
+  margin: 0px 0px 0px 60px;
+  font-size: 15px;
+  background-position: center;
+  width: 60%;
+  justify-content: center;
+}
+.footer a img {
+  height: 50px;
+  display: inline-block;
+  padding: 0;
+  margin: 0px 0px 0px 70px;
+  
+  
+} 
+.body-index{
+  flex-direction: column;
+} 
+/*mejores jugadas*/
+.videos-messi {
+  display: block;
+  height: 50px;
+  
+}
+.h1-jugadas{
+ 
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-size: 30px;
+}
+  
 }

@@ -22,3 +22,15 @@
 .area-texto {
     height: 200px;
     }
+    .mb-6{
+        text-align: center;
+        align-items: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(241, 37, 224);
+        font-size: 80px;
+      }
+      @media (max-width : 375.2px){
+        .form{
+          flex-direction: column;
+        } 
+      }
