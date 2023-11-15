@@ -8,17 +8,19 @@
     background-image: linear-gradient(to left, lightblue, lightpink);
 
 }
-.h2-menu{
-    color: rgb(241, 37, 224);
-    text-align: center;
-    margin: 120px 0px 0px 200px;
-    background-image: linear-gradient(to left, lightblue, lightpink);
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.h2-menu {
+  color: rgb(241, 37, 224);
+  margin: 120px 0px 0px 200px;
+  background-image: linear-gradient(to left, lightblue, lightpink);
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 700px;
+  text-align: center;
+  justify-content: center;
 }
 .texto-menu p {
     text-align: center;
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 30px 150px;
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -30,7 +32,7 @@
 }
 .img-messi{
     height: 350px;
-    margin: 0px 0px 0px 350px;
+    margin: 0px 0px 30px 350px;
 }
 @media (max-width : 375.2px){
     header {

@@ -117,15 +117,15 @@ header {
 
 .historia p {
   font-size: 20px;
-  width: 30%;
+  width: 50%;
   text-align: center;
   padding-left: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .historia img {
-  height: 500px;
-  padding-top: 150px;
+  height: 400px;
+  padding-top: 80px;
   padding-left: 100px;
 }
 
@@ -147,16 +147,18 @@ html {
 
 .h2-menu {
   color: rgb(241, 37, 224);
-  text-align: center;
   margin: 120px 0px 0px 200px;
   background-image: linear-gradient(to left, lightblue, lightpink);
   font-size: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 700px;
+  text-align: center;
+  justify-content: center;
 }
 
 .texto-menu p {
   text-align: center;
-  margin: 0px 0px 0px 150px;
+  margin: 0px 0px 30px 150px;
   font-size: 22px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -170,7 +172,7 @@ html {
 
 .img-messi {
   height: 350px;
-  margin: 0px 0px 0px 350px;
+  margin: 0px 0px 30px 350px;
 }
 @media (max-width : 375.2px){
   header {
@@ -222,10 +224,14 @@ html {
   
   
 } 
+.body-index{
+  flex-direction: column;
+} 
 /*mejores jugadas*/
 .videos-messi {
   display: block;
-  height: 180px;
+  height: 50px;
+  
 }
 .h1-jugadas{
  
@@ -234,5 +240,69 @@ html {
   font-size: 30px;
 }
   
+}
+@media (max-width : 375.2px){
+  .h1-historia{
+    text-align: center;
+    
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .historia img{
+    height: 220px;
+    padding: 0;
+    margin: 0px 0px 0px 30px;
+    
+  }
+  .historia p {
+    text-align: center;
+    margin: 0px 0px 5px 60px;
+    font-size: 15px;
+    background-position: center;
+    width: 60%;
+    justify-content: center;
+  }
+  .historia{
+    display: block;
+    flex-direction: column;
+  }
+}
+@media (max-width : 375.2px){
+  .main-estadisticas{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h1-estadisticas {
+    color: rgb(241, 37, 224);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .estadisticas-partido {
+    display: block;
+    padding: 0px 0px 0px 0%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .estadisticas-partido ul {
+    text-align: top;
+    font-size: 15px;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .estadisticas-partido img {
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
