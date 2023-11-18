@@ -29,7 +29,7 @@
         color: rgb(241, 37, 224);
         font-size: 80px;
       }
-      @media (max-width : 375.2px){
+      @media (min-width : 320.2px) and (max-width : 650px){
         .form{
           flex-direction: column;
         } 

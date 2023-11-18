@@ -34,7 +34,7 @@
     height: 350px;
     margin: 0px 0px 30px 350px;
 }
-@media (max-width : 375.2px){
+@media (min-width : 320.2px) and (max-width : 650px){
   header {
       padding: fixed;
       width: 100%;
@@ -100,4 +100,52 @@
   font-size: 30px;
 }
   
+}
+@media (min-width : 650.2px) and (max-width : 950px){
+  html {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  
+  .h1-menu {
+    color: rgb(241, 37, 224);
+    text-align: center;
+    padding: 0;
+    margin: 80px 0px 0px 0px;
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left, lightblue, lightpink);
+  }
+  
+  .h2-menu {
+    color: rgb(241, 37, 224);
+    margin: 120px 0px 0px 200px;
+    background-image: linear-gradient(to left, lightblue, lightpink);
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .texto-menu p {
+    text-align: center;
+    margin: 0px 0px 30px 150px;
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-position: center;
+    width: 50%;
+  }
+  
+  .texto-menu {
+    display: block;
+    flex-direction: collum;
+  }
+  
+  .img-messi {
+    height: 350px;
+    margin: 0px 0px 30px 350px;
+  }
 }
