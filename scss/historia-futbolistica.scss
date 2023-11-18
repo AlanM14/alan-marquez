@@ -20,7 +20,7 @@
     padding-top: 80px;
     padding-left: 100px;
   }
-  @media (max-width : 375.2px){
+  @media (min-width : 320.2px) and (max-width : 650px){
     .h1-historia{
       text-align: center;
       
@@ -44,5 +44,32 @@
     .historia{
       display: block;
       flex-direction: column;
+    }
+  }
+  @media (min-width : 650.2px) and (max-width : 950px){
+    .h1-historia {
+      color: rgb(241, 37, 224);
+      text-align: center;
+      padding: 80px 0px 0px 0px;
+      font-size: 40px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .historia {
+      display: flex;
+    }
+    
+    .historia p {
+      font-size: 20px;
+      width: 50%;
+      text-align: center;
+      padding-left: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .historia img {
+      height: 400px;
+      padding-top: 80px;
+      padding-left: 100px;
     }
   }
